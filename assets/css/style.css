@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    color: #777777;
+    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.container {
+    color: #777777;
+    background-color: #ffffff;
+}
+
+header {
+    color: #4aaaa5;
+    font: font-family: 'Georgia', Times, Times New Roman, serif;
+}
