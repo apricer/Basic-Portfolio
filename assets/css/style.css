@@ -10,12 +10,19 @@ body {
     font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-.container {
+.wrapper {
     color: #777777;
     background-color: #ffffff;
+    width: 960px;
+    min-height: 100%;
 }
 
 header {
     color: #4aaaa5;
     font: font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.footer,
+.push {
+    height: 50px;
 }
