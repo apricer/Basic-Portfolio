@@ -55,6 +55,14 @@ nav {
     overflow: hidden;
 }
 
+.work {
+    position: relative;
+    overflow: auto;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+}
+
 footer {
     text-align: center;
     font-size: 12px;
@@ -63,23 +71,4 @@ footer {
     color: #cccccc;
     background-color: #666666;
     margin-top: 40px;
-}
-
-.module {
-    background-color: #ffffff;
-    padding: 30px;
-    border: 1px solid #dddddd;
-}
-
-#content {
-    float: left;
-    width: 650px;
-}
-
-.work {
-    position: relative;
-    overflow: auto;
-    float: left;
-    width: 274px;
-    margin: 20px 0 25px;
 }
