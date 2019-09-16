@@ -12,6 +12,7 @@ body {
 
 #container {
     width: 960px;
+    float: left;
 }
 
 h1,
@@ -55,6 +56,10 @@ nav {
     clear: both;
     overflow: hidden;
     float: left;
+}
+
+.contact-form {
+    width: 500px;
 }
 
 .work {
