@@ -3,26 +3,83 @@
 }
 
 body {
-    display: block;
-    background-color: #ffffff;
-    border-color: #dddddd;
+    background-image: url("../images/dust_scratches.png");
+    background-repeat: repeat;
     color: #777777;
-    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 28px;
+    font-family:
+    font-size: 18px;
+
+#container {
+    width: 960px;
 }
 
-.wrapper {
-    color: #777777;
+h1,
+h2 {
+    color: #4aaaa5;
     background-color: #ffffff;
-    width: 960px;
-    min-height: 100%;
+    border-color: #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 30px;
+    border-bottom: 2px solid #cccccc;
+}
+
+h2 {
+    font-size: 22px;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 header {
-    color: #4aaaa5;
-    font: font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #ffffff;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #cccccc;
 }
 
-.footer,
-.push {
-    height: 50px;
+nav {
+    float;right;
+}
+
+.contact {
+    width: 960px;
+    margin: 0 auto;
+    clear: both;
+    overflow: hidden;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    line-height: 90px;
+    border-top: 8px solid #4aaaa5;
+    color: #cccccc;
+    background-color: #666666;
+    margin-top: 40px;
+}
+
+.module {
+    background-color: #ffffff;
+    padding: 30px;
+    border: 1px solid #dddddd;
+}
+
+#content {
+    float: left;
+    width: 650px;
+}
+
+.work {
+    position: relative;
+    overflow: auto;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
 }
