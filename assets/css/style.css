@@ -4,11 +4,11 @@
 
 body {
     background-image: url("../images/dust_scratches.png");
-    background-repeat: repeat;
     color: #777777;
     line-height: 28px;
     font-family:
     font-size: 18px;
+    width: 100%;
 
 #container {
     width: 960px;
@@ -53,14 +53,13 @@ nav {
     margin: 0 auto;
     clear: both;
     overflow: hidden;
+    float: left;
 }
 
 .work {
     position: relative;
     overflow: auto;
     float: left;
-    width: 274px;
-    margin: 20px 0 25px;
 }
 
 footer {
